@@ -7,9 +7,10 @@ Basic Crud Operations with NODE and REACT
   link can be used, 
   https://github.com/HaseebUllahAbbasi/openSource_typeScript_Project/fork
   
+  - Make a  new branch 
   - Make you Changes Write Commit Message meaningful
+  - merge with main branch test 
   - Create A Pull Request 
-  
   -Thanks For Contributiion 🌟🤩 
   
   
