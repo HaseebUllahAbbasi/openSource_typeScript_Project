@@ -2,10 +2,10 @@ import express, {Request,Response} from "express";
 import { connect } from "./db/db";
 import {router} from './routes/routes'
 
-
 const app = express();
 
 connect()
+
 app.use('/data',router);
 app.get('/test',(req: Request,res: Response): void =>
 {

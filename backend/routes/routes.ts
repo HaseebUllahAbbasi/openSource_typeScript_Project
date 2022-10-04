@@ -1,8 +1,8 @@
 import  express, {Request,Response} from 'express'
-import { TestData } from '../controllers/user';
+import { GetAllUsersData, TestData } from '../controllers/user';
 const router = express.Router();
 
-router.get('/home', TestData)
+router.get('/all', GetAllUsersData)
 
 router
 
