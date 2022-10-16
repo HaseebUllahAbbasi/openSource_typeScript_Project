@@ -12,6 +12,24 @@ const GetAllUsersData =  async(req:Request, res: Response) =>
   })
 }
 
+const DeleteUserById =  async(req:Request, res: Response) => 
+{
+  const allUsers = await UserModel.find();
+  res.status(200).json({
+    succes: true,
+    allUsers: allUsers
+  })
+}
+const DeleteUserByName =  async(req:Request, res: Response) => 
+{
+  const allUsers = await UserModel.find();
+  res.status(200).json({
+    succes: true,
+    allUsers: allUsers
+  })
+}
+
+
 
 const TestData = (req:Request, res: Response): void=> 
 {
