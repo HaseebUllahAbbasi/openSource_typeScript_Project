@@ -16,7 +16,7 @@ const ToDoList: FC<ToDoListProps> = ({ list, removeItem, changeStatus }: ToDoLis
 
 
   return (
-    <div className='container' style={{ backgroundColor: "Background" }}>
+    <div className='container' style={{ backgroundColor: "Background", borderRadius: "10px" }}>
       <div className='display-5'>
         Tasks
 

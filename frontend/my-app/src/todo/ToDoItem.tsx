@@ -1,4 +1,7 @@
 import React, { FC } from "react";
+const styleCompleted = { backgroundColor: "ActiveCaption", borderRadius: "15px", color: "whitesmoke" };
+const styleIncomplete = { backgroundColor: "turquoise", color: "black", borderRadius: "15px", };
+
 type ToDoItemProps = {
   task: string,
   completed: boolean,
@@ -9,8 +12,8 @@ type ToDoItemProps = {
 const ToDoItem: FC<ToDoItemProps> = ({ removeItem, changeStatus, task, completed }: ToDoItemProps) => {
   return (
     <div className="col-md-3 col-sm-6 col-xs-12">
-      <div className="card my-3">
-        <div className="card-body">
+      <div className="card my-3" style={{ borderRadius: "15px" }}>
+        <div className="card-body" style={completed === true ? styleCompleted : styleIncomplete} >
           <div className="">
             Text : {task}
           </div>

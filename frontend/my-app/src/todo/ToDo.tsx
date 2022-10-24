@@ -28,8 +28,9 @@ const Todo: FC<ToDoComponentProps> = ({ message = "This is Default Message" }) =
     setTasks([...updated])
   }
   const removeItem = (text: string) => {
-    alert("remove Item : " + text);
-    // setTasks([...tasks]);
+    const updated = tasks.filter(item => item.text !== text);
+    setTasks([...updated])
+
   }
 
   return (
