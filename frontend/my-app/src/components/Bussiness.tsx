@@ -1,4 +1,10 @@
-const Bussiness = () => {
+import React, { FC } from "react";
+
+const Business: FC = () => {
+  return (
+    <>
+    </>
+  )
 
 }
-export default Bussiness;
+export default Business;

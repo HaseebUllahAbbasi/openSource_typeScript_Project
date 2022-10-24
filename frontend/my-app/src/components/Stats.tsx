@@ -1,10 +1,10 @@
 import React, { FC } from "react";
 
-const Button: FC = () => {
+const Stats: FC = () => {
   return (
     <>
     </>
   )
 
 }
-export default Button;
+export default Stats;

@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Todo from './todo/ToDo';
+// import Todo from './todo/ToDo';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -12,7 +12,8 @@ root.render(
   // this is  with props 
   // <Todo message='This Is Basic To Do List' />
 
-  <Todo />
+  // <Todo />
+  <App />
 
 );
 
