@@ -1,6 +1,8 @@
 import React, { FC } from "react";
-
-const Button: FC = () => {
+type ButtonProps = {
+  style: string
+}
+const Button: FC<ButtonProps> = ({ style }) => {
   return (
     <>
     </>
